@@ -1,37 +1,27 @@
 import { IconType } from 'react-icons'
 import {
-  SiDotNet,
   SiJavascript,
   SiTypescript,
-  SiNodeDotJs,
-  SiGraphql,
+  SiNodedotjs,
   SiApollographql,
-  SiPhp,
   SiReact,
   SiNextDotJs,
   SiRedux,
-  SiStyledComponents,
-  SiGhost,
   SiVueDotJs,
   SiDocker,
   SiGooglecloud,
-  SiCpanel,
-  SiRancher,
-  SiGitlab,
   SiPostgresql,
   SiMicrosoftsqlserver,
   SiMysql,
   SiMongodb,
   SiRedis,
   SiSocketDotIo,
-  SiMaterialUi,
   SiFramer,
   SiGit,
   SiGnubash,
   SiVisualstudiocode,
-  SiUnity,
-  SiMicrosoft,
-  SiElectron,
+  SiRubyonrails,
+  SiExpress,
 } from 'react-icons/si'
 import { BsQuestionSquare } from 'react-icons/bs'
 import { AiOutlineAntDesign } from 'react-icons/ai'
@@ -46,8 +36,6 @@ export type SkillCategory =
   | 'ui frameworks'
   | 'productivity boost'
   | 'mobile'
-  | 'games'
-  | 'desktop'
 
 export type Skill = {
   name: string
@@ -59,12 +47,8 @@ export const Skills: {
 } = {
   backend: [
     {
-      name: 'C# - .NET.Core',
-      icon: SiDotNet,
-    },
-    {
       name: 'Node',
-      icon: SiNodeDotJs,
+      icon: SiNodedotjs,
     },
     {
       name: 'Javascript (ES6+)',
@@ -75,17 +59,17 @@ export const Skills: {
       icon: SiTypescript,
     },
     {
-      name: 'Graphql (JS, C#)',
-      icon: SiGraphql,
+      name: 'Ruby on Rails',
+      icon: SiRubyonrails
     },
     {
-      name: 'PHP (Wordpress, Slim)',
-      icon: SiPhp,
-    },
+      name: 'Express',
+      icon: SiExpress
+    }
   ],
   frontend: [
     {
-      name: 'React, RecoilJS',
+      name: 'React',
       icon: SiReact,
     },
     {
@@ -103,10 +87,6 @@ export const Skills: {
     {
       name: 'VueJS',
       icon: SiVueDotJs,
-    },
-    {
-      name: 'Ghost',
-      icon: SiGhost,
     },
   ],
   database: [
@@ -134,10 +114,6 @@ export const Skills: {
       name: 'SocketIO',
       icon: SiSocketDotIo,
     },
-    {
-      name: 'Google Pubsub',
-      icon: SiGooglecloud,
-    },
   ],
   cicd: [
     {
@@ -148,43 +124,11 @@ export const Skills: {
       name: 'GCP',
       icon: SiGooglecloud,
     },
-    {
-      name: 'CPanel',
-      icon: SiCpanel,
-    },
-    {
-      name: 'Rancher',
-      icon: SiRancher,
-    },
-    {
-      name: 'GitlabCICD',
-      icon: SiGitlab,
-    },
-    {
-      name: 'Buildkite',
-      icon: BsQuestionSquare,
-    },
   ],
   'ui frameworks': [
     {
-      name: 'Styled Components',
-      icon: SiStyledComponents,
-    },
-    {
-      name: 'AntDesign',
-      icon: AiOutlineAntDesign,
-    },
-    {
-      name: 'MaterialUI',
-      icon: SiMaterialUi,
-    },
-    {
       name: 'Framer Motion',
       icon: SiFramer,
-    },
-    {
-      name: 'ChakraUI',
-      icon: BsQuestionSquare,
     },
   ],
   'productivity boost': [
@@ -200,37 +144,13 @@ export const Skills: {
       name: 'Bash',
       icon: SiGnubash,
     },
-    {
-      name: 'SourceTree',
-      icon: FaSourcetree,
-    },
   ],
   mobile: [
-    {
-      name: 'React Native',
-      icon: SiReact,
-    },
     {
       name: 'Web PWA',
       icon: IoLogoPwa,
     },
-  ],
-  games: [
-    {
-      name: 'Unity3D',
-      icon: SiUnity,
-    },
-  ],
-  desktop: [
-    {
-      name: 'Windows Forms, WPF',
-      icon: SiMicrosoft,
-    },
-    {
-      name: 'Electron',
-      icon: SiElectron,
-    },
-  ],
+  ]
 }
 
 export const splitSkills = (srcArray: Skill[]) => {

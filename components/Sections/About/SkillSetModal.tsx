@@ -78,8 +78,6 @@ const SkillSetModal = ({ isOpen, onClose }: ISkillSetModal) => {
   const uiFrameWorkCols = splitSkills(Skills['ui frameworks'])
   const productivityCols = splitSkills(Skills['productivity boost'])
   const mobileCols = splitSkills(Skills.mobile)
-  const gameCols = splitSkills(Skills.games)
-  const desktopCols = splitSkills(Skills.desktop)
   return (
     <Modal
       isOpen={isOpen}
@@ -98,8 +96,6 @@ const SkillSetModal = ({ isOpen, onClose }: ISkillSetModal) => {
           <SkillList title="Database and Streams" columns={dataBaseCols} />
           <SkillList title="Ui Frameworks" columns={uiFrameWorkCols} />
           <SkillList title="Mobile Development" columns={mobileCols} />
-          <SkillList title="Game Development" columns={gameCols} />
-          <SkillList title="Desktop App" columns={desktopCols} />
           <SkillList title="Productivity boosts" columns={productivityCols} />
         </ModalBody>
         <ModalFooter>
