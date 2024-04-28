@@ -1,5 +1,5 @@
 import { memo } from 'react'
-import { Heading, Text, Stack, Link, Icon, Box } from '@chakra-ui/react'
+import { Heading, Text, Stack, Link, Icon, Box, Flex } from '@chakra-ui/react'
 import { motion, Variants } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { RiHeartPulseFill, RiCopyleftLine, RiGithubFill } from 'react-icons/ri'
@@ -57,7 +57,7 @@ const GetInTouch = () => {
         stuff, anything is cool. So feel free to message me on any of my social
         media or shoot me an{' '}
         <Link
-          href="mailto:marcjhon18@gmail.com"
+          href="mailto:william.schramm11@gmail.com"
           target="_blank"
           rel="noreferrer"
         >
@@ -66,28 +66,52 @@ const GetInTouch = () => {
         .
       </Text>
 
-      <Box
-        spacing={0.5}
-        textAlign="center"
-        fontFamily="monospace"
+      <Flex
         paddingTop={{ base: 10, lg: 20, xl: 20 }}
         paddingBottom={{ base: 5, lg: 18 }}
+        justifyContent="center"
       >
-        <Link
-          variant="description"
-          textDecoration="none"
-          rel="noreferrer"
-          href="https://github.com/klawingco/kl_portfolio"
-          target="_blank"
-          _focus={{ boxShadow: 'none' }}
+        <Box
+          spacing={0.5}
+          textAlign="center"
+          fontFamily="monospace"
+          marginRight={{ base: 10, lg: 20, xl: 20 }}
         >
-          <Text as="span">
-            <Icon as={RiGithubFill} h={6} w={6} /> <br />
-            Designed and Made with <Icon as={RiHeartPulseFill} /> <br />
-            KL Lawingco <Icon as={RiCopyleftLine} /> 2021
-          </Text>
-        </Link>
-      </Box>
+          <Link
+            variant="description"
+            textDecoration="none"
+            rel="noreferrer"
+            href="https://github.com/klawingco/kl_portfolio"
+            target="_blank"
+            _focus={{ boxShadow: 'none' }}
+          >
+            <Text as="span">
+              <Icon as={RiGithubFill} h={6} w={6} /> <br />
+              Original design by KL Lawingco <Icon as={RiCopyleftLine} /> 2021
+            </Text>
+          </Link>
+        </Box>
+
+        <Box
+          spacing={0.5}
+          textAlign="center"
+          fontFamily="monospace"
+        >
+          <Link
+            variant="description"
+            textDecoration="none"
+            rel="noreferrer"
+            href="https://github.com/Dakota-Schramm"
+            target="_blank"
+            _focus={{ boxShadow: 'none' }}
+          >
+            <Text as="span">
+              <Icon as={RiGithubFill} h={6} w={6} /> <br />
+              Created by Dakota Schramm <Icon as={RiCopyleftLine} /> {new Date().getFullYear()} 
+            </Text>
+          </Link>
+        </Box>
+      </Flex>
     </Stack>
   )
 }
