@@ -47,7 +47,7 @@ const GetInTouch = () => {
             ref={ref}
             animate={inView ? ['shake', 'jump'] : false}
           >
-            (⁀ᗢ⁀)
+            (^-^*)/
           </motion.div>
         </Text>
       </Heading>
