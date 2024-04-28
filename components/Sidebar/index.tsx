@@ -61,7 +61,7 @@ const Sidebar = () => {
             variant="accent"
             fontWeight="light"
           >
-            Ohh you found me?. Howdy! I am
+            Hey there! I'm
           </MotionText>
           <MotionHeading
             as="h1"
@@ -70,7 +70,7 @@ const Sidebar = () => {
             textTransform="uppercase"
             variants={fadeInUp}
           >
-            Marc Jhon
+            William Dakota
           </MotionHeading>
           <MotionHeading
             as="h2"
@@ -82,16 +82,8 @@ const Sidebar = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            Lawingco.
+            Schramm
           </MotionHeading>
-          <MotionText
-            colorScheme="gray"
-            fontSize="smaller"
-            className={styles.marginTopForce}
-            variants={fadeInUp}
-          >
-            Or you could call me KL. That works too . . .
-          </MotionText>
 
           <MotionHeading
             as="h3"
@@ -100,7 +92,7 @@ const Sidebar = () => {
             className={styles.marginTopSmall}
             variants={fadeInUp}
           >
-            Software Engineer
+            Full Stack Engineer
           </MotionHeading>
 
           <MotionText
