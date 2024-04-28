@@ -5,11 +5,7 @@ import {
   SiNodedotjs,
   SiApollographql,
   SiReact,
-  SiNextDotJs,
-  SiRedux,
-  SiVueDotJs,
   SiDocker,
-  SiGooglecloud,
   SiPostgresql,
   SiMicrosoftsqlserver,
   SiMysql,
@@ -22,6 +18,21 @@ import {
   SiVisualstudiocode,
   SiRubyonrails,
   SiExpress,
+  SiVuedotjs,
+  SiXstate,
+  SiCircleci,
+  SiArgo,
+  SiAirbrakedotio,
+  SiTailwindcss,
+  SiSass,
+  SiNextdotjs,
+  SiHeadlessui,
+  SiShadcnui,
+  SiStripe,
+  SiRedux,
+  SiCypress,
+  SiJest,
+  SiPlaywright,
 } from 'react-icons/si'
 import { BsQuestionSquare } from 'react-icons/bs'
 import { AiOutlineAntDesign } from 'react-icons/ai'
@@ -31,11 +42,13 @@ import { IoLogoPwa } from 'react-icons/io5'
 export type SkillCategory =
   | 'backend'
   | 'frontend'
+  | 'testing'
   | 'cicd'
   | 'database'
   | 'ui frameworks'
   | 'productivity boost'
   | 'mobile'
+  | 'other'
 
 export type Skill = {
   name: string
@@ -74,7 +87,7 @@ export const Skills: {
     },
     {
       name: 'NextJS',
-      icon: SiNextDotJs,
+      icon: SiNextdotjs,
     },
     {
       name: 'Apollo Graphql',
@@ -86,8 +99,34 @@ export const Skills: {
     },
     {
       name: 'VueJS',
-      icon: SiVueDotJs,
+      icon: SiVuedotjs,
     },
+    {
+      name: 'XState',
+      icon: SiXstate,
+    },
+    {
+      name: 'Tailwind CSS',
+      icon: SiTailwindcss
+    },
+    {
+      name: 'Sass',
+      icon: SiSass
+    }
+  ],
+  testing: [
+    {
+      name: 'Cypress',
+      icon: SiCypress
+    },
+    {
+      name: 'Jest',
+      icon: SiJest
+    },
+    {
+      name: 'Playwright',
+      icon: SiPlaywright
+    }
   ],
   database: [
     {
@@ -121,15 +160,31 @@ export const Skills: {
       icon: SiDocker,
     },
     {
-      name: 'GCP',
-      icon: SiGooglecloud,
+      name: 'CircleCI',
+      icon: SiCircleci,
     },
+    {
+      name: 'Argo',
+      icon: SiArgo,
+    },
+    {
+      name: 'Airbrake',
+      icon: SiAirbrakedotio
+    }
   ],
   'ui frameworks': [
     {
       name: 'Framer Motion',
       icon: SiFramer,
     },
+    {
+      name: 'Headless UI',
+      icon: SiHeadlessui
+    },
+    {
+      name: 'ShadCN',
+      icon: SiShadcnui
+    }
   ],
   'productivity boost': [
     {
@@ -150,6 +205,12 @@ export const Skills: {
       name: 'Web PWA',
       icon: IoLogoPwa,
     },
+  ],
+  other: [
+    {
+      name: 'Stripe',
+      icon: SiStripe,
+    }
   ]
 }
 

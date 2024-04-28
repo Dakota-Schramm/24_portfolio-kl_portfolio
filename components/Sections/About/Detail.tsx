@@ -19,6 +19,8 @@ import {
   SiDocker,
   SiNodedotjs,
   SiNextdotjs,
+  SiRubyonrails,
+  SiTailwindcss,
 } from 'react-icons/si'
 import { GiCoffeePot } from 'react-icons/gi'
 import { IoMdOpen } from 'react-icons/io'
@@ -78,8 +80,8 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
           </ListItem>
 
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiNodedotjs} color={emphasis} fontSize="2em" />
-            Node
+            <ListIcon as={SiTailwindcss} color={emphasis} fontSize="2em" />
+            TailwindCSS
           </ListItem>
         </List>
         <List spacing={3}>
@@ -88,8 +90,8 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
             React
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiNextdotjs} color={emphasis} fontSize="2em" />
-            NextJS
+            <ListIcon as={SiRubyonrails} color={emphasis} fontSize="2em" />
+            Ruby on Rails
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiDocker} color={emphasis} fontSize="2em" />
@@ -104,7 +106,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
             textAlign="left"
             onClick={onOpen}
           >
-            See my full arsenal <Icon as={IoMdOpen} />
+            See my full toolkit <Icon as={IoMdOpen} />
           </Text>
         </Box>
       </SimpleGrid>

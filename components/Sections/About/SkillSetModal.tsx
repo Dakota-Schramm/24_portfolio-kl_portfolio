@@ -73,11 +73,13 @@ const SkillList = ({
 const SkillSetModal = ({ isOpen, onClose }: ISkillSetModal) => {
   const backendCols = splitSkills(Skills.backend)
   const frontendCols = splitSkills(Skills.frontend)
+  const testingCols = splitSkills(Skills.testing)
   const cicdCols = splitSkills(Skills.cicd)
   const dataBaseCols = splitSkills(Skills.database)
   const uiFrameWorkCols = splitSkills(Skills['ui frameworks'])
   const productivityCols = splitSkills(Skills['productivity boost'])
   const mobileCols = splitSkills(Skills.mobile)
+  const otherCols = splitSkills(Skills.other)
   return (
     <Modal
       isOpen={isOpen}
@@ -92,11 +94,13 @@ const SkillSetModal = ({ isOpen, onClose }: ISkillSetModal) => {
         <ModalBody className={styles.skillModal}>
           <SkillList title="Backend Centric" columns={backendCols} />
           <SkillList title="Frontend Centric" columns={frontendCols} />
+          <SkillList title="Testing Centric" columns={testingCols} />
           <SkillList title="CICD centric" columns={cicdCols} />
           <SkillList title="Database and Streams" columns={dataBaseCols} />
           <SkillList title="Ui Frameworks" columns={uiFrameWorkCols} />
           <SkillList title="Mobile Development" columns={mobileCols} />
           <SkillList title="Productivity boosts" columns={productivityCols} />
+          <SkillList title="Other skills" columns={otherCols} />
         </ModalBody>
         <ModalFooter>
           <Text fontSize="x-small">*Some micro frameworks not included </Text>
