@@ -30,7 +30,16 @@ const config = {
 }
 
 const colors = {
-  black: '#121212',
+  base: {
+    black: '#121212',
+  },
+  light: {
+
+  },
+  dark: {
+
+  }
+
 }
 
 const styles = {
@@ -45,13 +54,13 @@ const styles = {
 
 const textVariants = {
   emphasis: (props: ThemeComponentProps<ChakraTheme>) => ({
-    color: mode('teal.500', 'cyan.200')(props),
+    color: mode('teal.500', 'green.500')(props),
   }),
   description: (props: ThemeComponentProps<ChakraTheme>) => ({
     color: mode('gray.800', 'gray.400')(props),
   }),
   accent: (props: ThemeComponentProps<ChakraTheme>) => ({
-    color: mode('black.400', 'cyan.200')(props),
+    color: mode('black.400', 'green.500')(props),
   }),
   accentAlternative: (props: ThemeComponentProps<ChakraTheme>) => ({
     color: mode('#595959', '#A6A6A6')(props),
@@ -63,19 +72,19 @@ const theme = extendTheme({
   fonts: {
     body: 'Poppins',
   },
-  colors,
+  colors: colors.base,
   styles,
   components: {
     Link: {
       baseStyle: (props) => ({
-        color: mode('teal.500', 'cyan.200')(props),
+        color: mode('teal.500', 'green.500')(props),
       }),
       variants: {
         ...textVariants,
         description: (props: ThemeComponentProps<ChakraTheme>) => ({
           color: mode('gray.800', 'gray.400')(props),
           _hover: {
-            color: mode('teal.500', 'cyan.200')(props),
+            color: mode('teal.500', 'green.500')(props),
             textDecoration: 'none',
           },
         }),
@@ -90,7 +99,7 @@ const theme = extendTheme({
     Button: {
       variants: {
         outline: (props) => ({
-          borderColor: mode('black.400', 'cyan.200')(props),
+          borderColor: mode('black.400', 'green.500')(props),
         }),
         outlineAlternative: (props) => ({
           borderWidth: '1px',
