@@ -29,7 +29,7 @@
 .blogBtn:hover,
 .blogBtn:focus,
 .blogBtn:active {
-  text-decoration-color: #97DFFC;
+  text-decoration-color: var(--color-light-blue);
   background-color: transparent;
 }
 

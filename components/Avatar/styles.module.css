@@ -3,6 +3,6 @@
     height: 250px;
     border-radius: 250px;
     border-color: transparent;
-    border-right-color: #97DFFC;
+    border-right-color: var(--color-light-blue);
     border-width: 3px;
 }
