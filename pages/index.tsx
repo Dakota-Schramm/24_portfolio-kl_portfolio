@@ -19,7 +19,6 @@ import FeaturedWorks from 'components/Sections/FeaturedWorks'
 import ScrollMore from 'components/Misc/ScrollMore'
 import { Article } from 'types/article'
 // These are on bottom sections so no need to render it instantly
-const DevToArticles = dynamic(() => import('components/Sections/DevToArticles'))
 const GetInTouch = dynamic(() => import('components/Sections/GetInTouch'))
 
 const Portfolio = ({ articles }: { articles: Article[] }): JSX.Element => {
@@ -138,16 +137,6 @@ const Portfolio = ({ articles }: { articles: Article[] }): JSX.Element => {
       <ScrollMore />
     </>
   )
-}
-
-export async function getStaticProps() {
-  const res = await fetch('https://dev.to/api/articles?username=klawingco')
-  const articles = await res.json()
-  return {
-    props: {
-      articles,
-    },
-  }
 }
 
 export default Portfolio
