@@ -65,7 +65,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
         </Tooltip>{' '}
         and even <b>front end integration</b> stuff now, how time flies!
         <br /> <br />
-        Here are few technologies I've worked with{' '}
+        Here are few technologies I've worked with:{' '}
       </Text>
 
       <SimpleGrid columns={2} spacing={4}>
