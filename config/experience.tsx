@@ -32,34 +32,19 @@ export const Experiences: {
     },
     roles: [
       <>
-       Contributed to the design and development of a comprehensive .NET payment integration project for a client
-       That covered credit card payments and subscription management.
-       Introduced Stripe as a new payment provider within the system architecture.
-       Participated in triaging, fixing and adding new functionalitiesto multiple Azure powered APIs of the same client.
+       Contributed to the design and development of two prototypes for Mailstrom and
+       Chuck.
+       Implementation of Payments API (Stripe), Auth (Passwordless)
       </>,
       <>
-        Worked as a Sitecore Backend on new{' '}
-        <Link
-          aria-label="Deloitte Digital AU"
-          href="https://www.deloittedigital.com.au/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Deloitte Digital AU Site.
-        </Link>
+        Worked on frontend prototype for Mailstrom using Nextjs and Tailwind.
       </>,
       <>
-        Udergone training for .NET Sitecore 10,
-        Sitecore SXA and different topologies it provides.{' '} and Passed {' '}
-        <Link
-          aria-label="Sitecore 10 .NET Developer Certification"
-          href="/certification/Lawingco-Sitecore 10 NET Developer Cert.pdf"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Sitecore 10 .NET Developer Certification.
-        </Link>
+        Involved in every day maintenance of Mailstrom and Chuck, using CI/CD 
+        (Github Action, CircleCI, ArgoCD, Airbrake, Dependabot)
+        Demoing of material from staging
       </>,
+
     ],
   },
 }
