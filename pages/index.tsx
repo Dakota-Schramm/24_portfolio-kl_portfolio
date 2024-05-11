@@ -4,6 +4,7 @@ import {
   GridItem,
   Stack,
   Box,
+  Image,
   useBreakpointValue,
 } from '@chakra-ui/react'
 import dynamic from 'next/dynamic'
@@ -18,6 +19,7 @@ import Experience from 'components/Sections/Experience'
 import FeaturedWorks from 'components/Sections/FeaturedWorks'
 import ScrollMore from 'components/Misc/ScrollMore'
 import { Article } from 'types/article'
+import Education from 'components/Sections/Education';
 // These are on bottom sections so no need to render it instantly
 const GetInTouch = dynamic(() => import('components/Sections/GetInTouch'))
 
@@ -94,6 +96,27 @@ const Portfolio = ({ articles }: { articles: Article[] }): JSX.Element => {
               >
                 <About />
                 <Avatar />
+              </Box>
+            </FadeInLayout>
+            <FadeInLayout>
+              <Box
+                id="education"
+                className="contentRow"
+                display="flex"
+                minH={{ lg: '100vh' }}
+                paddingTop={{ base: 0, lg: 20, xl: 0 }}
+                paddingBottom={{ base: 12, lg: 10 }}
+                paddingX={0}
+                marginRight={{ base: 0, lg: 16 }}
+                flexDirection={'row'}
+              >
+                <Education />
+                <Box boxSize="md">
+                  <Image
+                    src="columbia.png"
+                    alt="Columbia campus"
+                  />
+                </Box>
               </Box>
             </FadeInLayout>
             <FadeInLayout>
