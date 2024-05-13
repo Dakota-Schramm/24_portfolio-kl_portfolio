@@ -57,7 +57,7 @@ const FeaturedWorksSection = () => {
           <FeaturedCard
             idx={2}
             title="Study Guide IO"
-            description=""
+            description="An app to help you transform your notes into cornell style notes with questions and answers. Made using Nextjs, TailwindCss and Web Storage API"
             src="/works/rsv.webp"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl=""
@@ -68,11 +68,11 @@ const FeaturedWorksSection = () => {
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={3}
-            title="PocketLint"
-            description="A quizz - reviewer LMS, I made as a freelancer. Backend were powered by PHPSlim and VueJS for Front end."
+            title="Street Fighter DB"
+            description="A command line project with data from the characters in Street Fighter 6. Made using PG, Ruby and SQL."
             src="/works/agora.webp"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
-            ctaUrl=""
+            ctaUrl="#"
             objectPosition="right 20%"
             isMobile={isMobile}
           />

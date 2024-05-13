@@ -39,7 +39,6 @@ const GetInTouch = () => {
           fontVariantCaps: 'small-caps',
         }}
       >
-        Say hi!{' '}
         <Text as="span" fontSize="2xl" variant="emphasis">
           <motion.div
             style={{ display: 'inline-block' }}
@@ -47,15 +46,12 @@ const GetInTouch = () => {
             ref={ref}
             animate={inView ? ['shake', 'jump'] : false}
           >
-            (^-^*)/
+            Contact Me
           </motion.div>
         </Text>
       </Heading>
       <Text variant="description">
-        Though, I am fairly introverted myself. I do reply to messages as long
-        as my human interaction battery lasts. Coding, work, movies or even weeb
-        stuff, anything is cool. So feel free to message me on any of my social
-        media or shoot me an{' '}
+        You can get in touch with me by{' '}
         <Link
           href="mailto:william.schramm11@gmail.com"
           target="_blank"
