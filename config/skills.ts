@@ -7,11 +7,9 @@ import {
   SiReact,
   SiDocker,
   SiPostgresql,
-  SiMicrosoftsqlserver,
-  SiMysql,
   SiMongodb,
   SiRedis,
-  SiSocketDotIo,
+  SiSocketdotio,
   SiFramer,
   SiGit,
   SiGnubash,
@@ -134,14 +132,6 @@ export const Skills: {
       icon: SiPostgresql,
     },
     {
-      name: 'MsSQL',
-      icon: SiMicrosoftsqlserver,
-    },
-    {
-      name: 'MySQL',
-      icon: SiMysql,
-    },
-    {
       name: 'MongoDb',
       icon: SiMongodb,
     },
@@ -151,7 +141,7 @@ export const Skills: {
     },
     {
       name: 'SocketIO',
-      icon: SiSocketDotIo,
+      icon: SiSocketdotio,
     },
   ],
   cicd: [

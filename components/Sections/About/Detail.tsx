@@ -32,7 +32,7 @@ type ISkillSetModal = {
 const Detail = ({ onOpen }: ISkillSetModal) => {
   const emphasis = useColorModeValue('teal.500', 'green.300')
   const currentYear = new Date().getFullYear()
-  const professionalYears = currentYear - 2016
+  const professionalYears = currentYear - 2022
 
   return (
     <Stack
@@ -51,21 +51,25 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
         What i do.
       </Heading>
       <Text variant="description">
-        I`ve been coding professionally for {professionalYears} years now and
-        currently working as a <b>Software Engineer</b> that focuses on{' '}
-        <b>architecture</b>, <b>APIs</b>,{' '}
+        In my {professionalYears} years of working as a<b>Software Engineer</b>,
+        my curiosity has led me to{' '}
         <Tooltip
           label="Ha!. Or more accurately TECH DEBT"
           aria-label="Tech Debt?"
           hasArrow
         >
           <Text as="span" variant="emphasis">
-            <b>nitty-gritty business logics</b>
+            <b>wear many hats</b>
           </Text>
         </Tooltip>{' '}
-        and even <b>front end integration</b> stuff now, how time flies!
+        working on <b>frontend bits</b> like design systems and animation,
+        <b>backend bits</b> like databases,
+        <b>devops bits</b> like Github Actions,
+        and <b>testing</b>.
+        I am deeply passionate about developer experience topics such as
+        <b>code formatting and styling</b>, <b></b>
         <br /> <br />
-        Here are few technologies I've worked with:{' '}
+        Here are some of the specific technologies I've worked with:{' '}
       </Text>
 
       <SimpleGrid columns={2} spacing={4}>

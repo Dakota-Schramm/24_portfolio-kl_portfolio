@@ -1,10 +1,10 @@
 import { Link } from '@chakra-ui/react'
 
-export type Company = '410Labs' 
+export type Company = '410Labs'
 
 export type CompanyDetail = {
   name: string
-  longName: string
+  longName?: string
   subDetail?: string
   url: string
   position: string
@@ -17,7 +17,7 @@ export type CompanyDetail = {
 }
 
 export const Experiences: {
-  [key in Company]: CompanyDetail
+  [key: string]: CompanyDetail
 } = {
   "410Labs": {
     name: '410 Labs',

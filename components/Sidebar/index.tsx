@@ -107,8 +107,7 @@ const Sidebar = () => {
               {' '}
             </Text>
             for looking at my personal site!
-            <br />I am software engineer that specializes in Javascript and Ruby full stack development
-            though I find my curiosity leads me to wanting to know a bit of everything.
+            <br />I am a software engineer that specializes in Javascript and Ruby full stack development.
           </MotionText>
           <MotionButton
             size="lg"
