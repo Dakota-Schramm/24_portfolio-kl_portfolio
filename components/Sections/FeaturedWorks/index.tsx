@@ -45,7 +45,7 @@ const FeaturedWorksSection = () => {
             src="/works/yahtzee.png"
             description="A yahtzee game made using state machines. Made using Nextjs, TailwindCss, React-Icons and XState."
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
-            ctaUrl="https://github.com/Dakota-Schramm/next-yahtzee"
+            ctaUrl="https://dakotaschramm.com/next-yahtzee/"
             objectPosition="right 20%"
             isMobile={isMobile}
           />
