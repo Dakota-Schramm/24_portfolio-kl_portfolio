@@ -44,7 +44,7 @@ const FeaturedWorksSection = () => {
           <FeaturedCard
             idx={1}
             title="Yahtzee!"
-            src="/works/tobira/IphoneX-tobira.webp"
+            src="https://github.com/Dakota-Schramm/next-yahtzee"
             description="A yahtzee game made using state machines. Made using Nextjs, TailwindCss, React-Icons and XState."
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://tobira-app-test.netlify.app/"
@@ -58,7 +58,7 @@ const FeaturedWorksSection = () => {
             idx={2}
             title="Study Guide IO"
             description="An app to help you transform your notes into cornell style notes with questions and answers. Made using Nextjs, TailwindCss and Web Storage API"
-            src="/works/rsv.webp"
+            src="https://github.com/Dakota-Schramm/study-guide-io"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl=""
             isMobile={isMobile}
@@ -70,7 +70,7 @@ const FeaturedWorksSection = () => {
             idx={3}
             title="Street Fighter DB"
             description="A command line project with data from the characters in Street Fighter 6. Made using PG, Ruby and SQL."
-            src="/works/agora.webp"
+            src="https://github.com/Dakota-Schramm/sf6-stats"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="#"
             objectPosition="right 20%"
