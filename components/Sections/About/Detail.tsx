@@ -51,7 +51,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
         What i do.
       </Heading>
       <Text variant="description">
-        In my {professionalYears} years of working as a<b>Software Engineer</b>,
+        In my {professionalYears} years of working as a <b>Software Engineer</b>,
         my curiosity has led me to{' '}
         <Tooltip
           label="Ha!. Or more accurately TECH DEBT"
@@ -62,10 +62,11 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
             <b>wear many hats</b>
           </Text>
         </Tooltip>{' '}
-        working on <b>frontend bits</b> like design systems and animation,
-        <b>backend bits</b> like databases,
-        <b>devops bits</b> like Github Actions,
+        working on <b>frontend bits</b> like design systems and animation,{" "}
+        <b>backend bits</b> like databases,{" "}
+        <b>devops bits</b> like Github Actions,{" "}
         and <b>testing</b>.
+        <br />
         I am deeply passionate about developer experience topics such as
         <b>code formatting and styling</b>, <b></b>
         <br /> <br />

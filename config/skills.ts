@@ -31,6 +31,9 @@ import {
   SiCypress,
   SiJest,
   SiPlaywright,
+  SiRuby,
+  SiEslint,
+  SiPrettier,
 } from 'react-icons/si'
 import { BsQuestionSquare } from 'react-icons/bs'
 import { AiOutlineAntDesign } from 'react-icons/ai'
@@ -124,7 +127,19 @@ export const Skills: {
     {
       name: 'Playwright',
       icon: SiPlaywright
-    }
+    },
+    {
+      name: 'RSpec',
+      icon: SiRuby
+    },
+    {
+      name: 'Capybara',
+      icon: SiRuby
+    },
+    {
+      name: 'SitePrism',
+      icon: SiRuby
+    },
   ],
   database: [
     {
@@ -189,6 +204,14 @@ export const Skills: {
       name: 'Bash',
       icon: SiGnubash,
     },
+    {
+      name: "ESLint",
+      icon: SiEslint
+    },
+    {
+      name: "Prettier",
+      icon: SiPrettier,
+    }
   ],
   mobile: [
     {
