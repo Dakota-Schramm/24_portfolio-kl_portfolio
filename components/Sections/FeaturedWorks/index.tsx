@@ -30,9 +30,7 @@ const FeaturedWorksSection = () => {
       >
         Some of my works.
       </Heading>
-      <Text variant="description">
-        Check out some of my personal projects
-      </Text>
+      <Text variant="description">Check out some of my personal projects</Text>
 
       <MotionGrid
         templateRows="repeat(1, 1fr)"
@@ -47,7 +45,7 @@ const FeaturedWorksSection = () => {
             src="https://github.com/Dakota-Schramm/next-yahtzee"
             description="A yahtzee game made using state machines. Made using Nextjs, TailwindCss, React-Icons and XState."
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
-            ctaUrl="https://tobira-app-test.netlify.app/"
+            ctaUrl="https://github.com/Dakota-Schramm/next-yahtzee"
             objectPosition="right 20%"
             isMobile={isMobile}
           />
@@ -60,7 +58,7 @@ const FeaturedWorksSection = () => {
             description="An app to help you transform your notes into cornell style notes with questions and answers. Made using Nextjs, TailwindCss and Web Storage API"
             src="https://github.com/Dakota-Schramm/study-guide-io"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
-            ctaUrl=""
+            ctaUrl="https://github.com/Dakota-Schramm/study-guide-io"
             isMobile={isMobile}
           />
         </MotionGridItem>
@@ -72,7 +70,7 @@ const FeaturedWorksSection = () => {
             description="A command line project with data from the characters in Street Fighter 6. Made using PG, Ruby and SQL."
             src="https://github.com/Dakota-Schramm/sf6-stats"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
-            ctaUrl="#"
+            ctaUrl="https://github.com/Dakota-Schramm/sf6-stats"
             objectPosition="right 20%"
             isMobile={isMobile}
           />
