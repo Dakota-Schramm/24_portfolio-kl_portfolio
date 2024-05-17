@@ -4,7 +4,24 @@
   left: 3.5%;
   cursor: pointer;
   z-index: 100;
+
+  font-family: 'Poppins';
+
+  color: gray;
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
+  font-weight: 900;
+  font-style: italic;
 }
+
+.logo:hover {
+  text-decoration-line: underline;
+}
+
+.logo--dark {
+  color: #38A169;
+}
+
 .sidebar{
   border: 3px solid var(--color-light-blue);
   border-radius: 100%;

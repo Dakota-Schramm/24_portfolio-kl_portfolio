@@ -54,20 +54,24 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
         In my {professionalYears} years of working as a <b>Software Engineer</b>,
         my curiosity has led me to{' '}
         <Tooltip
-          label="Ha!. Or more accurately TECH DEBT"
-          aria-label="Tech Debt?"
+          label="work on all different levels of the project"
+          aria-label="many-hats"
           hasArrow
         >
           <Text as="span" variant="emphasis">
             <b>wear many hats</b>
           </Text>
         </Tooltip>{' '}
-        working on <b>frontend bits</b> like design systems and animation,{" "}
-        <b>backend bits</b> like databases,{" "}
-        <b>devops bits</b> like Github Actions,{" "}
-        and <b>testing</b>.
-        <br />
-        I am deeply passionate about developer experience topics such as
+        working on 
+      </Text>
+      <ul className='list-disc marker:text-white'>
+        <li>🧑‍🎨 <b>frontend bits</b> like design systems and animation</li>
+        <li>👨‍🔧 <b>backend bits</b> like databases</li>
+        <li>👨‍🚒 <b>devops bits</b> CI/CD</li>
+        <li>👨‍🔬 <b>testing</b></li>
+      </ul>
+      <Text>
+        I am deeply passionate about developer experience topics such as{' '}
         <b>code formatting and styling</b>, <b></b>
         <br /> <br />
         Here are some of the specific technologies I've worked with:{' '}

@@ -28,11 +28,21 @@ const EducationSection = () => {
             fontVariantCaps: 'small-caps',
           }}
         >
-          Where I studied.
+          Where i studied.
         </Heading>
         <Text variant="description">
-          I studied Mathematics at Columbia and fell in love with programming when I was 
-          taking online courses during covid
+          I started my time at Columbia as someone who was deeply interested in
+          science, taking courses in Biology, Physics and Mathematics.
+          <br />
+        </Text>
+        <Text variant="description">
+          I fell in love with programming when I was taking online courses
+          during covid and decided to try out some basic online courses with{' '}
+          <a href="#">freeCodeCamp</a>.
+          <br />
+        </Text>
+        <br />
+        <Text variant="description">
           <br />
         </Text>
       </Stack>
