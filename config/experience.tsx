@@ -25,7 +25,7 @@ export const Experiences: {
     // subDetail: 'Consulthing Phils. Delivery Center',
     url: 'https://410labs.com/',
     position: 'Software Engineer',
-    duration: 'Sep 2021 - Present',
+    duration: 'Mar 2022 - Present',
     logo: {
       light: '/worked_at_logos/410labs/410labs_dark.svg',
       dark: '/worked_at_logos/410labs/410labs.png',
