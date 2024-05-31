@@ -15,6 +15,14 @@
   font-style: italic;
 }
 
+@media (min-width: 1024px) {
+  .logo {
+    padding-left: var(--chakra-space-6);
+    padding-top: var(--chakra-space-3);
+    padding-bottom: var(--chakra-space-3);
+  }
+}
+
 .logo:hover {
   text-decoration-line: underline;
 }
