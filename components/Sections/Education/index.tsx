@@ -2,14 +2,9 @@ import { memo } from 'react'
 import {
   Heading,
   Text,
-  List,
-  ListItem,
-  ListIcon,
-  Icon,
-  SimpleGrid,
   Box,
-  Tooltip,
   Stack,
+  Image
 } from '@chakra-ui/react'
 
 const EducationSection = () => {
@@ -30,6 +25,11 @@ const EducationSection = () => {
         >
           Where i studied.
         </Heading>
+        <Image
+          borderRadius="xl"
+          src="columbia.png"
+          alt="Columbia campus"
+        />
         <Text variant="description">
           I started my time at Columbia as someone who was deeply interested in
           science, taking courses in Biology, Physics and Mathematics.

@@ -111,12 +111,6 @@ const Portfolio = ({ articles }: { articles: Article[] }): JSX.Element => {
                 flexDirection={'row'}
               >
                 <Education />
-                <Box boxSize="md">
-                  <Image
-                    src="columbia.png"
-                    alt="Columbia campus"
-                  />
-                </Box>
               </Box>
             </FadeInLayout>
             <FadeInLayout>
