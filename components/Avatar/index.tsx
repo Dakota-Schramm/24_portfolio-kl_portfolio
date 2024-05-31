@@ -38,7 +38,7 @@ const Avatar = () => {
   return (
     <AnimatePresence>
       <MotionBox
-        id="klAvatar"
+        id="avatar"
         boxSize={{ base: 64, lg: 'sm' }}
         padding={{ base: 8 }}
         marginBottom={{ base: 10, md: 0, lg: 0 }}
@@ -49,10 +49,10 @@ const Avatar = () => {
       >
         <ChkImage
           src={imgAvatar}
-          alt="Dakota Schramm Avatar"
-          htmlWidth="250"
-          htmlHeight="250"
-          margin="auto"
+          alt="Dakota Schramm's Avatar"
+          borderRadius='full'
+          boxSize='200px'
+          objectFit='cover'
           fallback={<SkeletonCircle height="100%" width="100%" />}
         />
       </MotionBox>
