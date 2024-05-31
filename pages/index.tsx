@@ -23,7 +23,7 @@ import Education from 'components/Sections/Education';
 // These are on bottom sections so no need to render it instantly
 const GetInTouch = dynamic(() => import('components/Sections/GetInTouch'))
 
-const Portfolio = ({ articles }: { articles: Article[] }): JSX.Element => {
+const Portfolio = (): JSX.Element => {
   const sideBarPadding = useBreakpointValue({ base: '5', md: '8', lg: '14' })
   const mainContent = useBreakpointValue({
     base: '5',

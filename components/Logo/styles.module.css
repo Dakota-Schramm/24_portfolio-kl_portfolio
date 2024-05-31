@@ -17,6 +17,8 @@
 
 @media (min-width: 1024px) {
   .logo {
+    flex-grow: 0;
+
     padding-left: var(--chakra-space-6);
     padding-top: var(--chakra-space-3);
     padding-bottom: var(--chakra-space-3);
