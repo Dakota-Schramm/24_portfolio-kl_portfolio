@@ -11,6 +11,7 @@ import {
   Tooltip,
   Stack,
   useColorModeValue,
+  UnorderedList
 } from '@chakra-ui/react'
 import {
   SiJavascript,
@@ -51,8 +52,8 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
         What i do.
       </Heading>
       <Text variant="description">
-        In my {professionalYears} years of working as a <b>Software Engineer</b>,
-        my curiosity has led me to{' '}
+        In my {professionalYears} years of working professionally as a{' '} 
+        <b>Software Engineer</b>, my curiosity has led me to{' '}
         <Tooltip
           label="work on all different levels of the project"
           aria-label="many-hats"
@@ -64,12 +65,17 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
         </Tooltip>{' '}
         working on 
       </Text>
-      <ul className='list-disc marker:text-white'>
-        <li>🧑‍🎨 <b>frontend bits</b> like design systems and animation</li>
-        <li>👨‍🔧 <b>backend bits</b> like databases</li>
-        <li>👨‍🚒 <b>devops bits</b> CI/CD</li>
-        <li>👨‍🔬 <b>testing</b></li>
-      </ul>
+
+      <UnorderedList
+        paddingLeft={8}
+        listStyleType="disc"
+      >
+        <ListItem>🧑‍🎨 <b>frontend bits</b> like design systems and animation</ListItem>
+        <ListItem>👨‍🔧 <b>backend bits</b> like databases</ListItem>
+        <ListItem>👨‍🚒 <b>devops bits</b> CI/CD</ListItem>
+        <ListItem>👨‍🔬 <b>testing</b></ListItem>
+      </UnorderedList>
+
       <Text>
         I am deeply passionate about developer experience topics such as{' '}
         <b>code formatting and styling</b>, <b></b>
