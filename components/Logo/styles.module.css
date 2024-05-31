@@ -8,7 +8,7 @@
 
   font-family: 'Poppins';
 
-  color: gray;
+  color: var(--chakra-colors-teal-500);
   font-size: 1.875rem; /* 30px */
   line-height: 2.25rem; /* 36px */
   font-weight: 900;

@@ -1,3 +1,2 @@
-Fix images used for projects
-Fix favicon used
 Fix education section
+Change spacing used for list in about section
